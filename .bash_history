@@ -621,3 +621,14 @@ git init
 git add .
 chown ansible:ansible -R .
 sudo chown ansible:ansible -R .
+git add .
+git status
+git commit -m "Ansible Intro to Handson with aws Instance creation"
+git config user.email "chandra.yarramreddy@gmail.com"
+git config user.name "Chandra"
+git commit -m "Ansible Intro to Handson with aws Instance creation"
+git push origin master
+git push https://github.com/chandrayarramreddy/ansibleroles.git
+git push origin master
+git push https://github.com/chandrayarramreddy/ansibleroles.git
+git status
