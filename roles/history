@@ -1,0 +1,676 @@
+history
+    1  ansible --version
+    2  ls
+    3  vim aws.yml
+    4  ansible-playbook aws.yml
+    5  ansible-playbook -b aws.yml
+    6  logout
+    7  ansible-playbook -b aws.yml
+    8  pip
+    9  sudo pip install boto
+   10  sudo pip install boto --upgrade
+   11  ansible-playbook -b aws.yml
+   12  sudo pip install botocore
+   13  sudo pip install boto3
+   14  ansible-playbook -b aws.yml
+   15  yum search python3
+   16  sudo yum install -y python36 python36-pip
+   17  ansible-playbook -b aws.yml
+   18  ansible-playbook -b aws.yml -e "ansible_python_interpreter=/usr/local/bin/python3"
+   19  ls
+   20  ansible-playbook -b aws.yml -e "ansible_python_interpreter=/usr/local/bin/python3"
+   21  ansible-playbook -b aws.yml -e "ansible_python_interpreter=/usr/local/bin/python3.6"
+   22  ansible-playbook -b aws.yml -e "ansible_python_interpreter=/usr/bin/python3"
+   23  sudo pip3 install boto3
+   24  ansible-playbook -b aws.yml -e "ansible_python_interpreter=/usr/bin/python3"
+   25  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+   26  unzip awscliv2.zip
+   27  suod yum install unzip
+   28  sudo yum install unzip
+   29  unzip awscliv2.zip
+   30  sudo ./aws/install
+   31  ./aws/install -i /usr/local/aws-cli -b /usr/local/bin
+   32  aws --version
+   33  ansible-playbook -b aws.yml -e "ansible_python_interpreter=/usr/bin/python3"
+   34  aws
+   35  vim aws.yml 
+   36  ansible-playbook -b aws.yml -e "ansible_python_interpreter=/usr/bin/python3"
+   37  sudo yum install libselinux-python
+   38  ansible-playbook -b aws.yml -e "ansible_python_interpreter=/usr/bin/python3"
+   39  sudo pip install boto
+   40  sudo pip install boto --upgrade
+   41  ansible-playbook -b aws.yml -e "ansible_python_interpreter=/usr/bin/python3"
+   42  sudo pip3 install boto
+   43  ansible-playbook -b aws.yml -e "ansible_python_interpreter=/usr/bin/python3"
+   44  sudo yum install libselinux-python
+   45  ansible-playbook -b aws.yml -e "ansible_python_interpreter=/usr/bin/python3"
+   46  ansible-playbook -b aws.yml -e "ansible_python_interpreter=/usr/bin/python2"
+   47  sudo yum install libselinux-python3
+   48  ansible-playbook -b aws.yml -e "ansible_python_interpreter=/usr/bin/python3"
+   49  vim aws.yml 
+   50  ansible-playbook -b aws.yml -e "ansible_python_interpreter=/usr/bin/python3"
+   51  vim aws.yml 
+   52  ansible-playbook -b aws.yml -e "ansible_python_interpreter=/usr/bin/python3"
+   53  vim aws
+   54  vim aws.yml 
+   55  vim awsid.yml
+   56  ansible-playbook awsid.yml
+   57  ansible-playbook -vvv awsid.yml
+   58  vim awsid.yml
+   59  ansible-playbook -vvv awsid.yml
+   60  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+   61  vim awsid.yml
+   62  ansible --version
+   63  vim awsid.yml
+   64  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+   65  ls
+   66  vim awsid.yml 
+   67  pwd
+   68  vim awsid.yml 
+   69  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+   70  vim awsid.yml 
+   71  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+   72  pwd
+   73  vim awsid.yml 
+   74  pwd
+   75  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+   76  vim Insid
+   77  ls
+   78  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+   79  vim Insid 
+   80  vim awsid.yml 
+   81  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+   82  cat Insid 
+   83  vim awsid.yml 
+   84  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+   85  vim awsid.yml 
+   86  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+   87  cat Insid 
+   88  vim awsid.yml 
+   89  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+   90  vim awsid.yml 
+   91  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+   92  vim awsid.yml 
+   93  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+   94  vim awsid.yml 
+   95  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+   96  vim awsid.yml 
+   97  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+   98  cat Insid 
+   99  vim awsid.yml 
+  100  ls
+  101  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  102  ls
+  103  ll
+  104  time
+  105  vim Insid 
+  106  date
+  107  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  108  ll
+  109  vim Insid 
+  110  vim awsid.yml 
+  111  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  112  ll
+  113  date
+  114  cat Insid 
+  115  ansible-playbook aws.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  116  ll
+  117  cat Insid 
+  118  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  119  ll
+  120  cat Insid 
+  121  ll
+  122  llvim awsid.yml 
+  123  vim awsid.yml 
+  124  cat awsid.yml 
+  125  vim aws.yml 
+  126  ansible-playbook aws.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  127  cat /etc/ansible/hosts 
+  128  vim create.yml
+  129  ll
+  130  ansible-playbook create.yml 
+  131  vim create.yml
+  132  ansible-playbook create.yml 
+  133  ll
+  134  vim create.yml 
+  135  cat aws.yml 
+  136  ll
+  137  cp aws.yml awsnew.yml
+  138  ll
+  139  vim awsnew.yml 
+  140  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  141  vim awsnew.yml 
+  142  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  143  vim awsnew.yml 
+  144  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  145  vim awsnew.yml 
+  146  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  147  vim awsnew.yml 
+  148  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  149  vim awsnew.yml 
+  150  cls
+  151  clear
+  152  history
+  153  cat history
+  154  history
+  155  history | free
+  156  history | tail 100
+  157  history | tail 12
+  158  vim awsnew.yml 
+  159  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  160  vim awsnew.yml 
+  161  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  162  vim awsnew.yml 
+  163  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  164  vim awsnew.yml 
+  165  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  166  vim awsnew.yml 
+  167  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  168  vim awsnew.yml 
+  169  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  170  vim awsnew.yml 
+  171  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  172  vim awsnew.yml 
+  173  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  174  vim awsnew.yml 
+  175  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  176  vim awsnew.yml 
+  177  ll
+  178  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  179  vim awsid.yml 
+  180  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  181  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  182  vim awsnew.yml 
+  183  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  184  vim awsnew.yml 
+  185  vim awsid.yml 
+  186  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  187  vim awsid.yml 
+  188  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  189  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  190  ansible-playbook awsid.yml -v -e "ansible_python_interpreter=/usr/bin/python3"
+  191  ll
+  192  vim awsnew.yml 
+  193  ansible-playbook awsid.yml -e "ansible_python_
+  194  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  195  vim awsnew.yml 
+  196  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  197  vim awsnew.yml 
+  198  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  199  vim awsnew.yml 
+  200  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  201  vim awsnew.yml 
+  202  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  203  vim awsnew.yml 
+  204  ll
+  205  ansible-playbook awsid.yml -v -e "ansible_python_interpreter=/usr/bin/python3"
+  206  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  207  vim awsnew.yml 
+  208  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  209  vim awsnew.yml 
+  210  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  211  vim awsnew.yml 
+  212  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  213  vim awsnew.yml 
+  214  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  215  vim awsnew.yml 
+  216  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  217  ll
+  218  vim awsnew.yml 
+  219  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  220  vim awsnew.yml 
+  221  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  222  vim awsnew.yml 
+  223  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  224  vim awsnew.yml 
+  225  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  226  vim awsnew.yml 
+  227  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  228  vim awsnew.yml 
+  229  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  230  vim awsnew.yml 
+  231  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  232  vim awsnew.yml 
+  233  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  234  vim awsnew.yml 
+  235  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  236  vim awsnew.yml 
+  237  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  238  vim awsnew.yml 
+  239  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  240  vim awsnew.yml 
+  241  ll
+  242  vim awsid.yml 
+  243  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  244  vim awsid.yml 
+  245  vim awsnew.yml 
+  246  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  247  vim awsid.yml 
+  248  vim awsnew.yml 
+  249  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  250  vim awsnew.yml 
+  251  ansible-playbook awsnew.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  252  vim awsnew.yml 
+  253  cat awsnew.yml 
+  254  vim awsn1.yml
+  255  vim awsnew.yml 
+  256  ll
+  257  vim awsn1.yml
+  258  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  259  vim awsn1.yml 
+  260  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  261  vim awsn1.yml 
+  262  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  263  vim awsn1.yml 
+  264  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  265  vim awsn1.yml 
+  266  vi awsn1.yml 
+  267  vim awsn1.yml 
+  268  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  269  vim awsn1.yml 
+  270  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  271  vim awsn1.yml 
+  272  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  273  vim awsn1.yml 
+  274  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  275  vim awsn1.yml 
+  276  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  277  vim awsn1.yml 
+  278  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  279  vim awsn1.yml 
+  280  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  281  vim awsn1.yml 
+  282  cat awsn1.yml 
+  283  vim awsn1.yml 
+  284  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  285  vim awsn1.yml 
+  286  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  287  vim awsn1.yml 
+  288  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  289  vim awsn1.yml 
+  290  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  291  vim awsn1.yml 
+  292  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  293  vim awsn1.yml 
+  294  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  295  vim awsn1.yml 
+  296  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  297  vim awsn1.yml 
+  298  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  299  vim awsn1.yml 
+  300  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  301  vim awsn1.yml 
+  302  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  303  vim awsn1.yml 
+  304  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  305  vim awsn1.yml 
+  306  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  307  vim awsn1.yml 
+  308  ansible-playbook awsn1.yml -v -e "ansible_python_interpreter=/usr/bin/python3"
+  309  vim awsn1.yml 
+  310  ansible-playbook awsn1.yml -v -e "ansible_python_interpreter=/usr/bin/python3"
+  311  vim awsn1.yml 
+  312  ansible-playbook awsn1.yml -v -e "ansible_python_interpreter=/usr/bin/python3"
+  313  vim awsn1.yml 
+  314  ansible-playbook awsn1.yml -v -e "ansible_python_interpreter=/usr/bin/python3"
+  315  vim awsn1.yml 
+  316  ansible-playbook awsn1.yml -v -e "ansible_python_interpreter=/usr/bin/python3"
+  317  vim awsn1.yml 
+  318  ansible-playbook awsn1.yml -v -e "ansible_python_interpreter=/usr/bin/python3"
+  319  vim awsn1.yml 
+  320  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  321  vim awsn1.yml 
+  322  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  323  vim awsn1.yml 
+  324  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  325  vim awsn1.yml 
+  326  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  327  vim awsn1.yml 
+  328  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  329  vim awsn1.yml 
+  330  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  331  vim awsn1.yml 
+  332  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  333  vim awsn1.yml 
+  334  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  335  vim awsn1.yml 
+  336  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  337  vim awsn1.yml 
+  338  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  339  vim awsn1.yml 
+  340  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  341  vim awsn1.yml 
+  342  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  343  vim awsn1.yml 
+  344  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  345  vim awsn1.yml 
+  346  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  347  vim awsn1.yml 
+  348  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  349  vim awsn1.yml 
+  350  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  351  vim awsn1.yml 
+  352  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  353  vim awsn1.yml 
+  354  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  355  vim awsn1.yml 
+  356  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  357  vim awsn1.yml 
+  358  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  359  vim awsn1.yml 
+  360  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  361  vim awsn1.yml 
+  362  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  363  vim awsn1.yml 
+  364  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  365  vim awsn1.yml 
+  366  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  367  vim awsn1.yml 
+  368  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  369  vim awsn1.yml 
+  370  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  371  vim awsn1.yml 
+  372  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  373  vim awsn1.yml 
+  374  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  375  vim awsn1.yml 
+  376  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  377  vim awsn1.yml 
+  378  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  379  vim awsn1.yml 
+  380  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  381  vim awsn1.yml 
+  382  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  383  vim awsn1.yml 
+  384  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  385  vim awsn1.yml 
+  386  cat awsn1.yml 
+  387  ll
+  388  vim awsid.yml 
+  389  cat awsid.yml 
+  390  vim awsid.yml 
+  391  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  392  vim awsid.yml 
+  393  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  394  ll
+  395  vim awsid.yml 
+  396  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  397  vim awsid.yml 
+  398  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  399  vim awsid.yml 
+  400  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  401  vim awsid.yml 
+  402  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  403  vim awsid.yml 
+  404  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  405  vim awsid.yml 
+  406  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  407  vim awsid.yml 
+  408  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  409  vim awsid.yml 
+  410  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  411  vim awsid.yml 
+  412  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  413  vim awsid.yml 
+  414  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  415  vim awsn1.yml 
+  416  ansible-playbook awsn1.yml -vvv -e "ansible_python_interpreter=/usr/bin/python3"
+  417  vim awsn1.yml 
+  418  vim awsid.yml 
+  419  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  420  vim awsn1.yml 
+  421  vim awsid.yml 
+  422  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  423  vim awsid.yml 
+  424  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  425  vim awsid.yml 
+  426  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  427  vim awsid.yml 
+  428  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  429  vim awsid.yml 
+  430  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  431  vim awsid.yml 
+  432  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  433  vim awsid.yml 
+  434  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  435  vim awsid.yml 
+  436  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  437  vim awsid.yml 
+  438  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  439  vim awsid.yml 
+  440  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  441  vim awsid.yml 
+  442  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  443  vim awsid.yml 
+  444  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  445  vim awsid.yml 
+  446  ansible-playbook awsid.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  447  ansible-playbook awsid.yml -vvvvv -e "ansible_python_interpreter=/usr/bin/python3"
+  448  vim awsid.yml 
+  449  ansible-playbook awsid.yml -vvvvv -e "ansible_python_interpreter=/usr/bin/python3"
+  450  vim awsid.yml 
+  451  ansible-playbook awsid.yml -vvvvv -e "ansible_python_interpreter=/usr/bin/python3"
+  452  vim awsid.yml 
+  453  ansible-playbook awsid.yml -vvvvv -e "ansible_python_interpreter=/usr/bin/python3"
+  454  vim awsid.yml 
+  455  ansible-playbook awsid.yml -vvvvv -e "ansible_python_interpreter=/usr/bin/python3"
+  456  vim awsid.yml 
+  457  ansible-playbook awsid.yml -vvvvv -e "ansible_python_interpreter=/usr/bin/python3"
+  458  vim awsid.yml 
+  459  ansible-playbook awsid.yml -vvvvv -e "ansible_python_interpreter=/usr/bin/python3"
+  460  vim awsid.yml 
+  461  ansible-playbook awsid.yml -vvvvv -e "ansible_python_interpreter=/usr/bin/python3"
+  462  vim awsid.yml 
+  463  ansible-playbook awsid.yml -vvvvv -e "ansible_python_interpreter=/usr/bin/python3"
+  464  vim awsid.yml 
+  465  cat awsid.yml 
+  466  ll
+  467  vim awsid.yml 
+  468  vim awsn1.yml
+  469  ansible-playbook awsn1.yml -vvvvv -e "ansible_python_interpreter=/usr/bin/python3"
+  470  vim awsn1.yml
+  471  ansible-playbook awsn1.yml -vvvvv -e "ansible_python_interpreter=/usr/bin/python3"
+  472  vim awsn1.yml
+  473  ansible-playbook awsn1.yml -vvvvv -e "ansible_python_interpreter=/usr/bin/python3"
+  474  vim awsn1.yml
+  475  ansible-playbook awsn1.yml -vvvvv -e "ansible_python_interpreter=/usr/bin/python3"
+  476  vim awsn1.yml
+  477  ansible-playbook awsn1.yml -vvvvv -e "ansible_python_interpreter=/usr/bin/python3"
+  478  vim awsn1.yml
+  479  ansible-playbook awsn1.yml -vvvvv -e "ansible_python_interpreter=/usr/bin/python3"
+  480  vim awsn1.yml
+  481  cat awsn1.yml
+  482  cls
+  483  clear
+  484  cat awsn1.yml
+  485  tree
+  486  logout
+  487  cat awsn1.yml
+  488  ansible-playbook awsn1.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  489  ll
+  490  ssh ec2_user@44.203.234.59
+  491  ssh -i "casecure.pem" ec2-user@ec2-44-203-234-59.compute-1.amazonaws.com
+  492  ll
+  493  chown casecure.pem ansible:ansible
+  494  chown ansible:ansible casecure.pem
+  495  sudo chown ansible:ansible casecure.pem
+  496  ll
+  497  ssh -i "casecure.pem" ec2-user@ec2-44-203-234-59.compute-1.amazonaws.com
+  498  ssh-copy-id ansible@54.221.109.249
+  499  ls -al
+  500  ssh-copy-id ansible@54.221.109.249
+  501  ssh-copy-id -f ansible@54.221.109.249
+  502  sudo ssh-copy-id -f ansible@54.221.109.249
+  503  logout
+  504  ls
+  505  pwd
+  506  mkdir roles
+  507  cd roles/
+  508  ansible-galaxy init 
+  509  ansible-galaxy init aws
+  510  ll
+  511  cd aws
+  512  tree
+  513  ll
+  514  ll tasks/
+  515  vim tasks/main.yml 
+  516  ll vars/
+  517  vim vars/main.yml 
+  518  cd defaults/
+  519  vim main.yml 
+  520  ll
+  521  cd ..
+  522  ll
+  523  vim aws.yml
+  524  ansible-playbokk aws.yml
+  525  ansible-playbook aws.yml
+  526  vim aws.yml 
+  527  ansible-playbook aws.yml
+  528  ll
+  529  pwd
+  530  mv aws.yml /home/ansible/roles
+  531  ll
+  532  cd ..
+  533  ansible-playbook aws.yml
+  534  ll aws
+  535  cat aws/defaults/main.yml 
+  536  vim aws/defaults/main.yml 
+  537  ansible-playbook aws.yml
+  538  vim aws/defaults/main.yml 
+  539  ansible-playbook aws.yml
+  540  ll
+  541  vim aws.yml 
+  542  ansible-playbook aws.yml
+  543  ansible-playbook -vvvvv aws.yml
+  544  vim aws.yml 
+  545  vim aws/tasks/main.yml 
+  546  ll
+  547  ansible-playbook -vvvvv aws.yml
+  548  ansible-playbook aws.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  549  ll
+  550  cd aws/
+  551  ll
+  552  cd defaults/
+  553  cat main.yml 
+  554  ansible-vault encrypt main.yml 
+  555  cat main.yml 
+  556  cd ..
+  557  ll
+  558  cd ..
+  559  ansible-playbook aws.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  560  ansible-playbook --ask-vault-pass aws.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  561  ll
+  562  cs roles/
+  563  cd roles/
+  564  ll
+  565  vim aws/defaults/main.yml 
+  566  ansible-valut edit /aws/defaults/main.yml
+  567  ansible-vault edit /aws/defaults/main.yml
+  568  ansible-vault edit aws/defaults/main.yml
+  569  vim aws/defaults/main.yml 
+  570  ll
+  571  vim pass.yml
+  572  ansible-playbook --ask-vault-file pass.yml aws.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  573  ansible-playbook --vault-password-file pass.yml aws.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  574  ll
+  575  vim aws/tasks/main.yml 
+  576  ansible-playbook --vault-password-file pass.yml aws.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  577  vim aws/tasks/main.yml 
+  578  ansible-playbook --vault-password-file pass.yml aws.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  579  vim aws/tasks/main.yml 
+  580  ansible-playbook --vault-password-file pass.yml aws.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  581  ll
+  582  vim aws/tasks/main.yml 
+  583  vim aws/defaults/main.yml 
+  584  ll aws/vars/main.yml 
+  585  vim aws/vars/main.yml 
+  586  ll
+  587  ansible-playbook --vault-password-file pass.yml aws.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  588  vim aws/tasks/main.yml 
+  589  ansible-playbook --vault-password-file pass.yml aws.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  590  vim aws/tasks/main.yml 
+  591  ansible-playbook --vault-password-file pass.yml aws.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  592  vim aws/tasks/main.yml 
+  593  ansible-playbook --vault-password-file pass.yml aws.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  594  vim aws/tasks/main.yml 
+  595  ansible-playbook --vault-password-file pass.yml aws.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  596  vim aws/tasks/main.yml 
+  597  ansible-playbook --vault-password-file pass.yml aws.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  598  ll
+  599  git
+  600  sudo yum install git
+  601  git
+  602  ls
+  603  ll
+  604  cd roles/
+  605  ll
+  606  ansible-vault edit aws/defaults/main.yml 
+  607  ll
+  608  git login
+  609  ll
+  610  cd ..
+  611  ll
+  612  git init
+  613  git add .
+  614  chown ansible:ansible -R .
+  615  sudo chown ansible:ansible -R .
+  616  git add .
+  617  git status
+  618  git commit -m "Ansible Intro to Handson with aws Instance creation"
+  619  git config user.email "chandra.yarramreddy@gmail.com"
+  620  git config user.name "Chandra"
+  621  git commit -m "Ansible Intro to Handson with aws Instance creation"
+  622  git push origin master
+  623  git push https://github.com/chandrayarramreddy/ansibleroles.git
+  624  git push origin master
+  625  git push https://github.com/chandrayarramreddy/ansibleroles.git
+  626  git status
+  627  git add .
+  628  git commit -m ""ansible roles
+  629  git commit -m "ansible roles"
+  630  git status
+  631  git remote add origin https://github.com/chandrayarramreddy/ansibleroles.git
+  632  git push -u origin master
+  633  ll
+  634  cd roles/
+  635  vim aws/tasks/main.yml 
+  636  ansible-playbook --vault-password-file pass.yml aws.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  637  vim aws/tasks/main.yml 
+  638  ansible-playbook --vault-password-file pass.yml aws.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  639  vim aws/tasks/main.yml 
+  640  ansible-playbook --vault-password-file pass.yml aws.yml -e "ansible_python_interpreter=/usr/bin/python3"
+  641  ll
+  642  cat InstId 
+  643  vim aws/tasks/main.yml 
+  644  ansible-playbook --vault-password-file pass.yml aws.yml --skip-tags term -e "ansible_python_interpreter=/usr/bin/python3"
+  645  ansible-playbook --vault-password-file pass.yml aws.yml --tags term -e "ansible_python_interpreter=/usr/bin/python3"
+  646  ansible-playbook --vault-password-file pass.yml aws.yml --skip-tags term -e "ansible_python_interpreter=/usr/bin/python3"
+  647  ll
+  648  cat InstId 
+  649  git status
+  650  git add .
+  651  git commit -m "Added task for temination with relative paths"
+  652  git push -u origin master
+  653  pwd
+  654  ll
+  655  ll -al
+  656  git status
+  657  vim roles/aws/defaults/main.yml 
+  658  ansible-vault edit roles/aws/tasks/main.yml 
+  659  ansible-vault edit roles/aws/defaults/main.yml 
+  660  vim roles/aws/vars/main.yml 
+  661  ansible-playbook --vault-password-file pass.yml aws.yml --skip-tags term -e "ansible_python_interpreter=/usr/bin/python3"
+  662  ll
+  663  ansible-playbook --vault-password-file roles/pass.yml aws.yml --skip-tags term -e "ansible_python_interpreter=/usr/bin/python3"
+  664  ll
+  665  cd roles/
+  666  ll
+  667  ansible-playbook --vault-password-file pass.yml aws.yml --skip-tags term -e "ansible_python_interpreter=/usr/bin/python3"
+  668  ansible-playbook --vault-password-file pass.yml aws.yml --tags term -e "ansible_python_interpreter=/usr/bin/python3"
+  669  vim aws.yml 
+  670  cat aws/tasks/main.yml 
+  671  vim aws/tasks/main.yml 
+  672  echo history >> history
+  673  ll
+  674  cat history 
+  675  history >> history
