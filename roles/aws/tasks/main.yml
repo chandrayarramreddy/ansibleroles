@@ -70,4 +70,34 @@
      msg: 'S.No {{item|int +1}} IP address is {{(ec2_infon.instances[item|int].public_ip_address)}}'
    with_sequence: start=0 end='{{vre}}'
 
+ - name: Delete file
+   ignore_errors: yes
+   file:
+     state: absent
+     path: "{{ lookup('env', 'PWD') }}/InstId"
+ 
+ - name: Create file
+   ignore_errors: yes  
+   file:
+     path: "{{ lookup('env', 'PWD') }}/InstId"
+     state: touch
 
+ - name: Save InstanceID to file
+   lineinfile:
+     dest: "{{ lookup('env', 'PWD') }}/InstId"
+     insertafter: '\[InstanceID\]'
+     line: "{{item.instance_id}}"
+   with_items: "{{ec2_infon.instances}}"
+   no_log: true
+
+ - name: Terminate EC2 instance
+   ec2:
+    aws_access_key: '{{ access_key }}'
+    aws_secret_key: '{{ secret_key }}'
+    instance_ids: "{{item}}"
+    region: '{{ region }}'
+    state: absent
+    wait: true
+   with_lines: cat "{{ lookup('env', 'PWD') }}/InstId"
+   tags:
+     - term
