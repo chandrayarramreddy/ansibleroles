@@ -1,0 +1,10 @@
+- hosts: localhost
+  connection: local
+  tasks:
+   
+    - name: Ansible create file if it doesn't exist example
+      ignore_errors: yes
+      file:
+        path:  "{{ lookup('env', 'PWD') }}/Insid12"
+        state: touch
+

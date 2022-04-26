@@ -1,0 +1,67 @@
+---
+- hosts: localhost
+  connection: local
+  tasks:
+    - name: Terminate Instances
+      ec2_instance_info:
+       aws_access_key: AKIAQWZ4MG5422SMBHGT
+       aws_secret_key: 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
+       region: us-east-1
+       filters:
+        instance-state-name: [ "running" ]
+      register: ec2_info
+ 
+    - name: displaying output
+      debug: msg="{{item.instance_id}}"
+      with_items: "{{ec2_info.instances}}"
+    
+    - name: displaying in msg output
+      debug: msg="{{item.public_ip_address}}"
+      with_items: "{{ec2_info.instances}}"
+    
+    - name: displaying in var output
+      debug: var="{{item.public_ip_address}}"
+      with_items: "{{ec2_info.instances}}"
+
+    - name: Count value
+      set_fact:
+         vara: '{{item.public_ip_address}} - {{count2}} - {{count2}}'
+         vre: '{{count2}}'
+      with_items: '{{ec2_info.instances}}'
+      vars:
+        count2: '{{index|int}}'
+      loop_control:
+        index_var: index
+    - name: new community dataa
+      debug:
+        #msg: "{{vre}}"
+        msg: '{{(ec2_info.instances[vre|int].public_ip_address)}}'
+# - {{vre}} - {{vara}}'
+
+    - name: delete file
+      ignore_errors: yes
+      file:
+        state: absent
+        path: /home/ansible/Insid
+ 
+    - name: Ansible create file if it doesn't exist example
+      ignore_errors: yes
+      file:
+        path:  /home/ansible/Insid
+        state: touch
+    - name: Save InstanceID to file
+      lineinfile:
+        dest: /home/ansible/Insid
+        insertafter: '\[InstanceID\]'
+        line: "{{item.instance_id}}"
+      with_items: "{{ec2_info.instances}}"   
+
+#    - name: Terminate EC2 instance
+#      ec2:
+#       aws_access_key: AKIAQWZ4MG5422SMBHGT
+#       aws_secret_key: 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
+#       instance_ids: "{{item}}"
+#       region: 'us-east-1'
+#       state: absent
+#       wait: true
+#      with_lines: cat /home/ansible/Insid
